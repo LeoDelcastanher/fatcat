@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Left ear -->
-  <polygon points="10,54 24,16 42,48" fill="#c0392b"/>
-  <!-- Right ear -->
-  <polygon points="58,48 76,16 90,54" fill="#c0392b"/>
-  <!-- Chubby round face -->
-  <circle cx="50" cy="64" r="34" fill="#c0392b"/>
-</svg>
