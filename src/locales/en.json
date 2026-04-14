@@ -1,0 +1,24 @@
+{
+  "site": {
+    "title": "Fat Cat",
+    "tagline": "Exposing my fat cat to the world"
+  },
+  "footer": {
+    "tech": ["100% React", "100% TypeScript", "100% Tailwind CSS", "100% Fat", "100% Cat"]
+  },
+  "catCard": {
+    "title": "Fat Cat ",
+    "description": "Exposing my fat cat ",
+    "footer": "The best fat cat in the world \uD83E\uDDE1 - "
+  },
+  "cats": {
+    "drooler":     { "name": "The Professional Drooler",   "description": "drooling while napping on his annoying owner's leg.",                    "footer": "the owner's leg is the official pillow 😴" },
+    "fakeplants":  { "name": "Lover of (Fake) Nature",     "description": "napping on top of fake plants",                                         "footer": "can't tell plastic from the real thing 🌿" },
+    "flycatcher":  { "name": "The Fly Catcher",            "description": "napping with mouth open to catch flies",                                 "footer": "advanced hunting technique: sleep with mouth open 🦟" },
+    "posture":     { "name": "Posture Master",             "description": "sitting wrong and grooming himself",                                     "footer": "ergonomics are optional 🧼" },
+    "innovator":   { "name": "The Innovator",              "description": "lying down in a completely unconventional way",                          "footer": "redefining the concept of comfort 🛌" },
+    "derpy":       { "name": "Cute Derp Face",             "description": "napping with a goofy cute face",                                        "footer": "not ugly, just charming 😚" },
+    "gardener":    { "name": "The Gardener",               "description": "sitting weird on the grass he planted with his own paws",                "footer": "plants it, grows it, sits on it 🌱" },
+    "habitat":     { "name": "In His Natural Habitat",     "description": "in his natural habitat",                                                 "footer": "if it fits, I sits 🪣" }
+  }
+}

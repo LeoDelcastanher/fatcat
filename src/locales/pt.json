@@ -1,0 +1,24 @@
+{
+  "site": {
+    "title": "Gato Gordo",
+    "tagline": "Expondo meu gato gordo ao mundo"
+  },
+  "footer": {
+    "tech": ["100% React", "100% TypeScript", "100% Tailwind CSS", "100% Gato", "100% Gordo"]
+  },
+  "catCard": {
+    "title": "Gato Gordo ",
+    "description": "Expondo meu gato gordo ",
+    "footer": "O melhor gato gordo do mundo \uD83E\uDDE1 - "
+  },
+  "cats": {
+    "drooler":     { "name": "O Babador Profissional",     "description": "babando enquanto nana na perna do seu dono chato.",                      "footer": "a perna do dono é o travesseiro oficial 😴" },
+    "fakeplants":  { "name": "Amante da Natureza (Falsa)", "description": "nanado em cima de plantas fake",                                         "footer": "não distingue plástico de verdade 🌿" },
+    "flycatcher":  { "name": "O Caçador de Moscas",        "description": "nanando de boca aberta pra catar moscas",                                "footer": "técnica avançada de caça: dormir de boca aberta 🦟" },
+    "posture":     { "name": "Mestre da Postura",          "description": "sentado errado e se limpando",                                           "footer": "a ergonomia é opcional 🧼" },
+    "innovator":   { "name": "O Inovador",                 "description": "deitado de uma forma completamente não convencional",                     "footer": "redefinindo o conceito de conforto 🛌" },
+    "derpy":       { "name": "Cara de Tolo Fofo",          "description": "nanado com cara de tolo fofo",                                           "footer": "não é feio, é charmoso 😚" },
+    "gardener":    { "name": "O Jardineiro",               "description": "sentado estranho em sua grama que ele plantou com suas próprias patas",   "footer": "planta, colhe e senta em cima 🌱" },
+    "habitat":     { "name": "Em Seu Habitat Natural",     "description": "em seu habitat natural",                                                 "footer": "se coube, é meu 🪣" }
+  }
+}

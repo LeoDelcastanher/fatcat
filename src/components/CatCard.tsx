@@ -1,6 +1,8 @@
 // 1. Define the shape of the props this component accepts.
 //    This is TypeScript doing its job — if you forget a prop or
 //    pass the wrong type, the editor will warn you instantly.
+import {t} from "i18next";
+
 type CatCardProps = {
   name: string
   description: string
@@ -18,11 +20,11 @@ export default function CatCard({ name, description, imageSrc, footer }: CatCard
 
       {/* 3. Curly braces {} let you drop a JS variable into JSX */}
       <h1 className="text-5xl text-[#c0392b] tracking-wide mt-1 mb-1">
-        Gato gordo {name}
+        { t('catCard.title') + name}
       </h1>
 
       <p className="text-lg text-[#7f5e3c] italic mb-8">
-        Expondo meu gato gordo {description}
+        { t('catCard.description') + description}
       </p>
 
       <div className="rounded-[1.5rem] overflow-hidden border-[5px] border-[#e67e22] shadow-md">
@@ -34,7 +36,7 @@ export default function CatCard({ name, description, imageSrc, footer }: CatCard
       </div>
 
       <footer className="mt-10 text-sm text-[#bfa98a]">
-          O melhor gato gordo do mundo 🧡 - {footer}
+          { t('catCard.footer') + footer}
       </footer>
     </div>
   )
