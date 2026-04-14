@@ -18,11 +18,11 @@ export default function CatCard({ name, description, imageSrc, footer }: CatCard
 
       {/* 3. Curly braces {} let you drop a JS variable into JSX */}
       <h1 className="text-5xl text-[#c0392b] tracking-wide mt-1 mb-1">
-        {name}
+        Gato gordo {name}
       </h1>
 
       <p className="text-lg text-[#7f5e3c] italic mb-8">
-        {description}
+        Expondo meu gato gordo {description}
       </p>
 
       <div className="rounded-[1.5rem] overflow-hidden border-[5px] border-[#e67e22] shadow-md">
@@ -34,7 +34,7 @@ export default function CatCard({ name, description, imageSrc, footer }: CatCard
       </div>
 
       <footer className="mt-10 text-sm text-[#bfa98a]">
-        {footer}
+          O melhor gato gordo do mundo 🧡 - {footer}
       </footer>
     </div>
   )
