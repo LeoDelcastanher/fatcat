@@ -25,11 +25,11 @@ Before touching code, make sure these are installed on your machine.
 
 ---
 
-### Phase 1 — Bootstrap the React + TypeScript + Tailwind project
+### Phase 1 — Bootstrap the React + TypeScript + Tailwind project ✅
 
 We'll use **Vite** as the build tool. It's fast, modern, and the go-to choice for new React projects (Create React App is retired).
 
-- [ ] **1.1** — In your terminal, from the `FatCat` folder, run:
+- [x] **1.1** — In your terminal, from the `FatCat` folder, run:
   ```bash
   npm create vite@latest . -- --template react-ts
   ```
@@ -37,17 +37,17 @@ We'll use **Vite** as the build tool. It's fast, modern, and the go-to choice fo
 
   > **What this does:** Vite generates a ready-to-run React + TypeScript project structure. You get `src/`, `public/`, `index.html`, `tsconfig.json`, `vite.config.ts`, and more.
 
-- [ ] **1.2** — Install the generated dependencies:
+- [x] **1.2** — Install the generated dependencies:
   ```bash
   npm install
   ```
 
-- [ ] **1.3** — Install Tailwind and its Vite plugin:
+- [x] **1.3** — Install Tailwind and its Vite plugin:
   ```bash
   npm install -D tailwindcss @tailwindcss/vite
   ```
 
-- [ ] **1.4** — Open `vite.config.ts` and add the Tailwind plugin:
+- [x] **1.4** — Open `vite.config.ts` and add the Tailwind plugin:
   ```ts
   import { defineConfig } from 'vite'
   import react from '@vitejs/plugin-react'
@@ -61,13 +61,13 @@ We'll use **Vite** as the build tool. It's fast, modern, and the go-to choice fo
   })
   ```
 
-- [ ] **1.5** — In `src/index.css`, replace everything with just:
+- [x] **1.5** — In `src/index.css`, replace everything with just:
   ```css
   @import "tailwindcss";
   ```
   That single line pulls in all of Tailwind's utilities. No config file needed with the v4 Vite plugin.
 
-- [ ] **1.6** — Start the dev server to confirm everything works:
+- [x] **1.6** — Start the dev server to confirm everything works:
   ```bash
   npm run dev
   ```
@@ -167,7 +167,7 @@ Once Phase 2 is done and the site is working, try these to deepen your understan
 | Date | What happened |
 |---|---|
 | 2026-04-14 | Project started as a plain HTML page |
-| — | *(add entries here as you go)* |
+| 2026-04-14 | Phase 1 complete — Vite + React + TypeScript + Tailwind v4 scaffolded |
 
 ---
 

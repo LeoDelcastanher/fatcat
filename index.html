@@ -1,94 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gato Gordo</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      min-height: 100vh;
-      background: #fdf6ec;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-family: Georgia, serif;
-      padding: 2rem;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 2rem;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
-      padding: 3rem 2.5rem;
-      max-width: 480px;
-      width: 100%;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3rem;
-      color: #c0392b;
-      letter-spacing: 0.04em;
-      margin-bottom: 0.4rem;
-    }
-
-    .paw {
-      font-size: 1.6rem;
-      color: #e67e22;
-    }
-
-    p.description {
-      font-size: 1.15rem;
-      color: #7f5e3c;
-      margin: 0.6rem 0 2rem;
-      font-style: italic;
-    }
-
-    .photo-frame {
-      display: inline-block;
-      border-radius: 1.5rem;
-      overflow: hidden;
-      border: 5px solid #e67e22;
-      box-shadow: 0 4px 16px rgba(230, 126, 34, 0.25);
-      width: 100%;
-      max-width: 380px;
-    }
-
-    .photo-frame img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    footer {
-      margin-top: 2.5rem;
-      font-size: 0.85rem;
-      color: #bfa98a;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <div class="paw">🐾</div>
-    <h1>Gato Gordo</h1>
-    <p class="description">Expondo meu gato gordo ao mundo</p>
-
-    <div class="photo-frame">
-      <!-- Replace src with your cat's photo path, e.g. src="cat.jpg" -->
-      <img src="cat.webp"
-           alt="Meu gato gordo"
-           onerror="this.src='https://placehold.co/380x380/fdf6ec/c0392b?text=🐱+Gato+Gordo'" />
-    </div>
-
-    <footer>o melhor gato gordo do mundo 🧡</footer>
-  </div>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fatcat</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
