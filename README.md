@@ -75,14 +75,14 @@ We'll use **Vite** as the build tool. It's fast, modern, and the go-to choice fo
 
 ---
 
-### Phase 2 — Migrate to React components
+### Phase 2 — Migrate to React components ✅
 
 Now we translate `index.html` into proper React components using TypeScript and Tailwind classes.
 
-- [ ] **2.1** — Move `cat.webp` and `favicon.svg` into the `public/` folder.
+- [x] **2.1** — Move `cat.webp` and `favicon.svg` into the `public/` folder.
   > Files in `public/` are served as-is. Reference them in code as `/cat.webp`.
 
-- [ ] **2.2** — Replace `src/App.tsx` with the Gato Gordo card:
+- [x] **2.2** — Replace `src/App.tsx` with the Gato Gordo card:
   ```tsx
   export default function App() {
     return (
@@ -110,15 +110,16 @@ Now we translate `index.html` into proper React components using TypeScript and 
     )
   }
   ```
+  > **Gotcha:** Files in `public/` are served from the site root. The path is `/cat.webp`, NOT `/public/cat.webp`.
 
-- [ ] **2.3** — Update `index.html` to use `favicon.svg`:
+- [x] **2.3** — Update `index.html` to use `favicon.svg`:
   ```html
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   ```
 
 - [ ] **2.4** — Delete the default boilerplate Vite created: `src/App.css`, `src/assets/react.svg`.
 
-- [ ] **2.5** — Verify the site looks correct at `http://localhost:5173`. It should match the original exactly.
+- [x] **2.5** — Verify the site looks correct at `http://localhost:5173`. It should match the original exactly.
 
 ---
 
@@ -168,6 +169,7 @@ Once Phase 2 is done and the site is working, try these to deepen your understan
 |---|---|
 | 2026-04-14 | Project started as a plain HTML page |
 | 2026-04-14 | Phase 1 complete — Vite + React + TypeScript + Tailwind v4 scaffolded |
+| 2026-04-14 | Phase 2 complete — Gato Gordo migrated to React + Tailwind, image path bug caught and fixed |
 
 ---
 
