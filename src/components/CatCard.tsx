@@ -13,7 +13,7 @@ type CatCardProps = {
 //    called destructuring: it unpacks the props object into variables.
 export default function CatCard({ name, description, imageSrc, footer }: CatCardProps) {
   return (
-    <div className="bg-white rounded-[2rem] shadow-lg p-12 max-w-md w-full text-center">
+    <div className="bg-white rounded-[2rem] shadow-lg p-8 max-w-md w-full text-center">
       <span className="text-[1.6rem]">🐾</span>
 
       {/* 3. Curly braces {} let you drop a JS variable into JSX */}

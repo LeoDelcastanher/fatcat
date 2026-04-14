@@ -62,16 +62,29 @@ export default function App() {
     ];
 
   return (
-    <main className="min-h-screen bg-[#fdf6ec] flex flex-wrap justify-center content-start gap-8 p-8 font-serif">
+    <div className="min-h-screen bg-[#fdf6ec] flex flex-col font-serif">
+      <main className="flex-1 flex flex-wrap justify-center content-start gap-8 p-8">
         {fatCatFrames.map((frame, index) => (
-            <CatCard
-                key={index}
-                name={frame.name}
-                description={frame.description}
-                imageSrc={frame.imageName}
-                footer={frame.footer}
-            />
+          <CatCard
+            key={index}
+            name={frame.name}
+            description={frame.description}
+            imageSrc={frame.imageName}
+            footer={frame.footer}
+          />
         ))}
-    </main>
+      </main>
+
+      <footer className="w-full border-t border-[#e8ddd0] py-4 px-8 flex flex-wrap justify-center items-center gap-x-3 gap-y-1">
+        {['100% React', '100% TypeScript', '100% Tailwind CSS', '100% Gato', '100% Gordo'].map((tech, index, arr) => (
+          <>
+            <span key={tech} className="text-xs text-[#bfa98a]">{tech}</span>
+            {index < arr.length - 1 && (
+              <span className="w-1 h-1 rounded-full bg-[#d4c4b0]" />
+            )}
+          </>
+        ))}
+      </footer>
+    </div>
   )
 }
