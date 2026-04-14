@@ -12,52 +12,52 @@ type FatCatFrame = {
 export default function App() {
     const fatCatFrames: FatCatFrame[] = [
         {
-            name: "Gato Gordo Babando",
+            name: "O Babador Profissional",
             description: "babando enquanto nana na perna do seu dono chato.",
             imageName: "cat (1)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "a perna do dono é o travesseiro oficial 😴"
         },
         {
-            name: "Gato Gordo Nanando em cima de plantas fake",
+            name: "Amante da Natureza (Falsa)",
             description: "nanado em cima de plantas fake",
             imageName: "cat (2)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "não distingue plástico de verdade 🌿"
         },
         {
-            name: "Gato Gordo",
+            name: "O Caçador de Moscas",
             description: "nanando de boca aberta pra catar moscas",
             imageName: "cat (6)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "técnica avançada de caça: dormir de boca aberta 🦟"
         },
         {
-            name: "Gato Gordo",
+            name: "Mestre da Postura",
             description: "sentado errado e se limpando",
             imageName: "cat (3)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "a ergonomia é opcional 🧼"
         },
         {
-            name: "Gato Gordo",
+            name: "O Inovador",
             description: "deitado de uma forma completamente não convencional",
             imageName: "cat (4)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "redefinindo o conceito de conforto 🛌"
         },
         {
-            name: "Gato Gordo",
+            name: "Cara de Tolo Fofo",
             description: "nanado com cara de tolo fofo",
             imageName: "cat (5)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "não é feio, é charmoso 😚"
         },
         {
-            name: "Gato Gordo",
+            name: "O Jardineiro",
             description: "sentado estranho em sua grama que ele palntou com suas proprias patas",
             imageName: "cat (7)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "planta, colhe e senta em cima 🌱"
         },
         {
-            name: "Gato Gordo",
+            name: "Em Seu Habitat Natural",
             description: "em seu habitat natural",
             imageName: "cat (8)",
-            footer: "o melhor gato gordo do mundo 🧡"
+            footer: "se coube, é meu 🪣"
         },
     ];
 
